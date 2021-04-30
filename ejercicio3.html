@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<style media="screen" type="text/css">
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        flex-wrap: wrap;
+        border: 2px solid black;
+        margin: 20px 20px;
+        background-color: rgb(190, 190, 190);
+        display: flex;
+    }
+    .esp {
+        margin: 20px 20px;
+    }
+    .esp__rojo { 
+        width: 300px;
+        height: 50px;
+        background-color: red;
+    }
+    .esp__amarillo {
+        width: 300px;
+        height: 80px;
+        background-color: rgb(255, 230, 0);
+    }
+    .din {
+        margin: 20px 20px;
+        
+    }
+    .din__rojo {
+        background-color: red;
+        height: 180px ;
+        width: 300px;
+        position: absolute;
+        z-index: 1;
+    }
+    .din__blanco-vertical {
+        background-color: white;
+        height: 180px;
+        width: 20px;
+        position: relative;
+        left: 30%;
+        z-index: 2;
+
+    }
+    .din__blanco-x {
+        background-color: white;
+        width: 300px;
+        height: 20px;
+        z-index: 3;
+        position: relative;
+        bottom: 100px;
+        
+    }
+    .emir {
+        margin: 20px 20px;
+    }
+    .emir__rojo {
+        background-color: red;
+        height: 180px;
+        width: 80px;
+        position: absolute;
+    }
+    .emir__verde {
+        background-color: green;
+        height: 60px;
+        width: 300px;
+    }
+    .emir__blanco {
+        background-color: white;
+        height: 60px;
+        width: 300px;
+    }
+    .emir__negro {
+        background-color: black;
+        height: 60px;
+        width: 300px;
+    }
+    .jap {  
+        margin: 20px 20px;
+    }
+    .jap__blanco {
+        background-color: white;
+        height: 180px ;
+        width: 300px;
+        z-index: 1;
+    }
+    .jap__rojo {
+        background-color: red;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        bottom: 40%;
+        z-index: 2;
+    }
+
+ </style>
+
+<section class="container">
+
+    <div class="esp">
+        <div class="esp__rojo"></div>
+        <div class="esp__amarillo"></div>
+        <div class="esp__rojo"></div>
+        <p>España</p>
+    </div>
+    
+
+    <div class="din">
+        <div class="din__rojo"></div>
+        <div class="din__blanco-vertical"></div>
+        <div class="din__blanco-x"></div>
+        <p>Dinamarca</p>
+    </div>
+
+    <div class="emir">
+        <div class="emir__rojo"></div>
+        <div class="emir__verde"></div>
+        <div class="emir__blanco"></div>
+        <div class="emir__negro"></div>
+        <p>Emiratos Arabes</p>
+    </div>
+
+    <div class="jap">
+        <div class="jap__blanco"></div>
+        <div class="jap__rojo"></div>
+        <p>Japon</p>
+    </div>
+    
+
+</section>
+</body>
+</html>
